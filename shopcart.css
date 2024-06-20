@@ -1,0 +1,63 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+
+
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #bb7d09;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+h2 ,h1 {
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #023f02;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn :hover {
+    background-color: #218838;
+}
+.product p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.product h2{
+    font-size: 20px;
+    color: rgb(206, 184, 189);
+}
+img{
+    padding-left: 30px;
+}
+.fa-heart {
+    color: red;
+}
+
+.fa-heart-o {
+    color: gray;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
